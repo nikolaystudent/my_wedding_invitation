@@ -236,11 +236,28 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="flex items-center gap-3"
+            className="flex items-center gap-2"
           >
-            <span className="hidden sm:inline-block text-base tracking-[0.15em] font-semibold text-[#BF93E2] uppercase drop-shadow">
-              Включить музыку
-            </span>
+            <motion.div
+              animate={{
+                x: [0, 8, 0],
+                rotate: [0, 3, 0],
+              }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+            >
+              <Image
+                src="/images/sign.PNG"
+                alt="Включить музыку"
+                width={180}
+                height={60}
+                className="h-10 w-auto"
+              />
+            </motion.div>
+
             <button
               onClick={toggleAudio}
               className="relative p-3 rounded-full bg-[#BF93E2] backdrop-blur-md text-white hover:bg-[#BF93E2] transition-all shadow-[0_4px_12px_rgba(0,0,0,0.2)] hover:scale-105 active:scale-95 group cursor-pointer border border-white/20"
@@ -251,6 +268,7 @@ export default function Home() {
               ) : (
                 <VolumeX className="size-5 opacity-80 group-hover:opacity-100" />
               )}
+
               {isPlaying && (
                 <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 flex items-end gap-[2px] h-3">
                   <span className="w-[2px] bg-white animate-[bounce_0.8s_infinite_100ms] h-1"></span>
@@ -525,10 +543,6 @@ export default function Home() {
               </div>
               <div className="flex flex-col items-center gap-1">
                 <div className="size-8 rounded-full bg-[#FFC6A7] border border-[#2F4F34]/10 shadow-[0_2px_8px_rgba(47,79,52,0.05)]" />
-                <span className="text-[8px] font-bold text-[#2F4F34]/70"></span>
-              </div>
-              <div className="flex flex-col items-center gap-1">
-                <div className="size-8 rounded-full bg-[#FFD29D] border border-[#2F4F34]/10 shadow-[0_2px_8px_rgba(47,79,52,0.05)]" />
                 <span className="text-[8px] font-bold text-[#2F4F34]/70"></span>
               </div>
               <div className="flex flex-col items-center gap-1">
