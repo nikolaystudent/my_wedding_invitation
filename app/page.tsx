@@ -273,7 +273,7 @@ export default function Home() {
             className="w-full flex justify-center"
           >
             <Image
-              src="/images/title.png"
+              src="/images/title.PNG"
               alt="Свадебное приглашение"
               width={800}
               height={250}
@@ -289,7 +289,7 @@ export default function Home() {
             className="w-full flex justify-center"
           >
             <Image
-              src="/images/couple.png"
+              src="/images/couple.PNG"
               alt="Nikolai & Ksenia"
               width={700}
               height={900}
@@ -333,7 +333,7 @@ export default function Home() {
             className="w-full max-w-sm"
           >
             <Image
-              src="/images/get_details.png"
+              src="/images/get_details.PNG"
               alt="Открыть детали"
               width={320}
               height={80}
@@ -580,7 +580,7 @@ export default function Home() {
                 whileTap={{ scale: 0.98 }}
               >
                 <Image
-                  src="/images/fill_out_form.png"
+                  src="/images/fill_out_form.PNG"
                   alt="Заполнить анкету"
                   width={320}
                   height={80}
