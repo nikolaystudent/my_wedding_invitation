@@ -289,7 +289,7 @@ export default function Home() {
             className="w-full flex justify-center"
           >
             <Image
-              src="/images/couple.PNG"
+              src="/images/couple.png"
               alt="Nikolai & Ksenia"
               width={700}
               height={900}
