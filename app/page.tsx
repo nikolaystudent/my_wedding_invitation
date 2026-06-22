@@ -41,7 +41,7 @@ export default function Home() {
   const smoothY = useSpring(mouseY, springConfig);
 
   // Set the wedding date: July 12, 2026 at 15:00
-  const weddingDate = new Date(2026, 6, 12, 15, 0, 0).getTime();
+  const weddingDate = new Date(2026, 6, 12, 16, 0, 0).getTime();
 
   useEffect(() => {
     setMounted(true);
@@ -449,14 +449,14 @@ export default function Home() {
                   {/* Event 1 */}
                   <div className="relative">
                     <div className="absolute -left-[30px] top-1 size-3 rounded-full bg-[#A78BFA] border-2 border-white shadow-sm" />
-                    <span className="text-xl font-bold font-serif text-[#2F4F34]">15:00</span>
+                    <span className="text-xl font-bold font-serif text-[#2F4F34]">16:00</span>
                     <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Начало церемонии венчания</p>
                     <p className="text-xl text-[#2F4F34]/60">Сбор гостей и торжественное венчание</p>
                   </div>
                   {/* Event 2 */}
                   <div className="relative">
                     <div className="absolute -left-[30px] top-1 size-3 rounded-full bg-[#FFC6A7] border-2 border-white shadow-sm" />
-                    <span className="text-xl font-bold font-serif text-[#2F4F34]">16:00</span>
+                    <span className="text-xl font-bold font-serif text-[#2F4F34]">17:00</span>
                     <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Свадебный банкет</p>
                     <p className="text-xl text-[#2F4F34]/60">Ужин, поздравления и развлекательная программа</p>
                   </div>
