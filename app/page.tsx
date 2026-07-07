@@ -450,15 +450,15 @@ export default function Home() {
                   <div className="relative">
                     <div className="absolute -left-[30px] top-1 size-3 rounded-full bg-[#A78BFA] border-2 border-white shadow-sm" />
                     <span className="text-xl font-bold font-serif text-[#2F4F34]">16:00</span>
-                    <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Начало церемонии венчания</p>
-                    <p className="text-xl text-[#2F4F34]/60">Сбор гостей и торжественное венчание</p>
+                    <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Сбор гостей</p>
+                    <p className="text-xl text-[#2F4F34]/60">Сбор гостей и приветственные угощения</p>
                   </div>
                   {/* Event 2 */}
                   <div className="relative">
                     <div className="absolute -left-[30px] top-1 size-3 rounded-full bg-[#FFC6A7] border-2 border-white shadow-sm" />
                     <span className="text-xl font-bold font-serif text-[#2F4F34]">17:00</span>
-                    <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Свадебный банкет</p>
-                    <p className="text-xl text-[#2F4F34]/60">Ужин, поздравления и развлекательная программа</p>
+                    <p className="text-2xl font-bold text-[#2F4F34] mt-0.5">Церемония венчания</p>
+                    <p className="text-xl text-[#2F4F34]/60">Венчание и праздничный ужин</p>
                   </div>
                 </div>
 
